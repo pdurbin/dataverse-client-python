@@ -19,6 +19,8 @@ import traceback
 # downloaded modules
 
 # local modules
+import sys
+sys.path.append('.')
 from dvn_client.src.study import Study
 from dvn_client.src.connection import DvnConnection
 from config import DEFAULT_PASSWORD, DEFAULT_HOST, DEFAULT_CERT, DEFAULT_USERNAME, EXAMPLE_FILE, \
