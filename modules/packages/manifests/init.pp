@@ -7,6 +7,7 @@ class packages {
     'libxslt-devel',
     'python-argparse',
     'python-lxml',
+    'python-requests',
     # common tools
     'unzip',
     'git',
